@@ -4,7 +4,6 @@ const UserFeedbackSchema = new mongoose.Schema({
   // Profile Information
   name: String,
   email: String,
-  age: String,
   phone: String,
   city: String,
   occupation: String,

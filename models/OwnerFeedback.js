@@ -8,6 +8,9 @@ const OwnerFeedbackSchema = new mongoose.Schema({
   city: String,
   propertyType: String,
   propertyCount: String,
+  referralSource: String,
+  friendName: String,
+  groupName: String,
   
   // Challenges
   biggestChallenge: String,

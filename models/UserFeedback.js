@@ -8,6 +8,9 @@ const UserFeedbackSchema = new mongoose.Schema({
   city: String,
   occupation: String,
   budget: String,
+  referralSource: String,
+  friendName: String,
+  groupName: String,
   
   // Current Situation
   currentSituation: String,
